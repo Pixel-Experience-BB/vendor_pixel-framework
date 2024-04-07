@@ -94,6 +94,12 @@
             android:title="@string/ambient_display_pickup_title"
             settings:controller="com.android.settings.gestures.PickupGesturePreferenceController"
             settings:searchable="false" />
+        <Preference
+            android:fragment="com.android.settings.gestures.ScreenOffUdfpsSettings"
+            android:key="gesture_screen_off_udfps_input_summary"
+            android:title="@string/ambient_display_screen_off_udfps_title"
+            settings:controller="com.android.settings.gestures.ScreenOffUdfpsPreferenceController"
+            settings:searchable="false" />
         <SwitchPreference
             android:key="ambient_display_notification"
             android:summary="@string/doze_summary"
